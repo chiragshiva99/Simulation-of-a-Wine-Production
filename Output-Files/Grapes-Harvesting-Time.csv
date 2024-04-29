@@ -1,0 +1,13 @@
+Month,harvesting_times_Red,Sim_optimal_months_Red,harvesting_times_White,Sim_optimal_months_White
+01,100,False,100,False
+02,100,False,100,False
+03,100,False,100,False
+04,100,False,100,False
+05,100,False,100,False
+06,100,False,100,False
+07,100,False,100,False
+08,100,False,100,False
+09,1,True,1,True
+10,100,False,100,False
+11,100,False,100,False
+12,100,False,100,False
