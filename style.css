@@ -1,0 +1,97 @@
+/* Style for the whole page */
+body {
+    background-color: black;
+    color: #f0f0f0; /* white color for text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for headings */
+h2, h4 {
+    color: #f0f0f0; /* white color for headings */
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style for table header */
+th {
+    background-color: #8B0000; /* dark red wine color for header */
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Style for table cells */
+td {
+    border: 1px solid black; /* black border for cells */
+    padding: 15px;
+    text-align: left;
+    background-color: #5B0A0A; /* red wine color for cells */
+}
+
+/* Style for alternating rows */
+tr:nth-child(even) {
+    background-color: #3F0A0A; /* darker red wine color for even rows */
+}
+
+/* Style for table links */
+a {
+    color: #FFD700; /* gold color for links */
+    text-decoration: none;
+}
+
+td:first-child {
+    text-align: center;
+  }
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
+.horizontal-padding {
+    padding-left: 100px; /* Adjust as needed */
+    padding-right: 100px; /* Adjust as needed */
+    padding-top: 15px;
+    /* background-color: #f0f0f0; */
+    margin: 0 auto;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Adjust the height as needed */
+  }
+  
+  iframe {
+    border: none; /* Optional: Remove border from the iframe */
+    width: 1000px;
+    height: 1000px;
+  }
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0; /* 0 height for padding-top */
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
+
